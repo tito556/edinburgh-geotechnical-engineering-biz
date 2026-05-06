@@ -1,0 +1,40 @@
+# Edinburgh
+
+> Geotechnical engineering company in United States, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Active Passive Anchor Design](https://edinburgh.geotechnical-engineering.biz/active-passive-anchor-design/)
+- [Cbr Study Road Design](https://edinburgh.geotechnical-engineering.biz/cbr-study-road-design/)
+- [Dynamic Compaction Design](https://edinburgh.geotechnical-engineering.biz/dynamic-compaction-design/)
+- [Existing Pavement Evaluation](https://edinburgh.geotechnical-engineering.biz/existing-pavement-evaluation/)
+- [Factor Safety](https://edinburgh.geotechnical-engineering.biz/factor-safety/)
+- [Field Vane Shear](https://edinburgh.geotechnical-engineering.biz/field-vane-shear/)
+- [Flat Dilatometer](https://edinburgh.geotechnical-engineering.biz/flat-dilatometer/)
+- [Flexible Pavement Design](https://edinburgh.geotechnical-engineering.biz/flexible-pavement-design/)
+- [Foundations](https://edinburgh.geotechnical-engineering.biz/foundations/)
+- [Geomembrane Specification](https://edinburgh.geotechnical-engineering.biz/geomembrane-specification/)
+- [Geotechnical Instrumentation](https://edinburgh.geotechnical-engineering.biz/geotechnical-instrumentation/)
+- [Ground Improvement](https://edinburgh.geotechnical-engineering.biz/ground-improvement/)
+- [In Situ Testing](https://edinburgh.geotechnical-engineering.biz/in-situ-testing/)
+- [Investigation](https://edinburgh.geotechnical-engineering.biz/investigation/)
+- [Laboratory](https://edinburgh.geotechnical-engineering.biz/laboratory/)
+- [Laboratory Cbr](https://edinburgh.geotechnical-engineering.biz/laboratory-cbr/)
+- [Landfill Geotechnics](https://edinburgh.geotechnical-engineering.biz/landfill-geotechnics/)
+- [Oedometer Consolidation](https://edinburgh.geotechnical-engineering.biz/oedometer-consolidation/)
+- [Preloading Design](https://edinburgh.geotechnical-engineering.biz/preloading-design/)
+- [Raft Mat Foundation Design](https://edinburgh.geotechnical-engineering.biz/raft-mat-foundation-design/)
+- [Retaining Wall Design](https://edinburgh.geotechnical-engineering.biz/retaining-wall-design/)
+- [Roadway](https://edinburgh.geotechnical-engineering.biz/roadway/)
+- [Slope Stability Analysis](https://edinburgh.geotechnical-engineering.biz/slope-stability-analysis/)
+- [Slopes Walls](https://edinburgh.geotechnical-engineering.biz/slopes-walls/)
+- [Soil Erosion Analysis](https://edinburgh.geotechnical-engineering.biz/soil-erosion-analysis/)
+- [Soil Mechanics Study](https://edinburgh.geotechnical-engineering.biz/soil-mechanics-study/)
+- [Standard Penetration](https://edinburgh.geotechnical-engineering.biz/standard-penetration/)
+- [Triaxial](https://edinburgh.geotechnical-engineering.biz/triaxial/)
+
+## Contact
+- Website: https://edinburgh.geotechnical-engineering.biz/
+
+## About
+This page provides information about geotechnical engineering services available in United States.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
