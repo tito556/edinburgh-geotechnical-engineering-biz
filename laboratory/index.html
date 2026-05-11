@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
@@ -31,7 +36,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-    .content-area { flex-direction: column; }
+    
 .servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
@@ -83,8 +88,8 @@ footer a { color: rgba(255,255,255,0.85); }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
-    .header-top { flex-direction: column; text-align: center; }
+    
+    
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
     border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
@@ -115,7 +120,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
     margin-bottom: 1.25rem; font-size: 1rem;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-    main { padding: 1.5rem; }
+    
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
@@ -133,7 +138,9 @@ main p { margin-bottom: 1rem; color: #334155; }
     text-decoration: none;
 }
 .sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}</style>
+.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ img{max-width:100%!important;height:auto!important}
   body{background:#FAFAFA!important;color:#18181B!important}
   .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   aside{align-self:start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Laboratory in Edinburgh – UK","description":"Our Edinburgh laboratory services deliver precise geotechnical testing aligned with the complex glacial till and volcanic bedrock geology of the Lothians","@id":"https://edinburgh.geotechnical-engineering.biz/laboratory/","inLanguage":"en","url":"https://edinburgh.geotechnical-engineering.biz/laboratory/","isPartOf":{"url":"https://edinburgh.geotechnical-engineering.biz","@type":"WebSite","@id":"https://edinburgh.geotechnical-engineering.biz/#website-7fe1"}},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/","name":"Home"},{"position":2,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/laboratory/","name":"Laboratory"}]},{"@type":"ItemList","name":"Laboratory","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/laboratory-cbr/","position":1,"@type":"ListItem","name":"Laboratory CBR test"},{"url":"https://edinburgh.geotechnical-engineering.biz/oedometer-consolidation/","position":2,"@type":"ListItem","name":"Oedometer consolidation test"},{"url":"https://edinburgh.geotechnical-engineering.biz/soil-mechanics-study/","position":3,"@type":"ListItem","name":"Soil mechanics study"},{"url":"https://edinburgh.geotechnical-engineering.biz/triaxial/","position":4,"@type":"ListItem","name":"Triaxial test"}]}]}</script></head>
+  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Laboratory in Edinburgh – UK","description":"Our Edinburgh laboratory services deliver precise geotechnical testing aligned with the complex glacial till and volcanic bedrock geology of the Lothians","@id":"https://edinburgh.geotechnical-engineering.biz/laboratory/","inLanguage":"en","url":"https://edinburgh.geotechnical-engineering.biz/laboratory/","isPartOf":{"url":"https://edinburgh.geotechnical-engineering.biz","@type":"WebSite","@id":"https://edinburgh.geotechnical-engineering.biz/#website-7fe1"}},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/","name":"Home"},{"position":2,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/laboratory/","name":"Laboratory"}]},{"@type":"ItemList","name":"Laboratory","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/laboratory-cbr/","position":1,"@type":"ListItem","name":"Laboratory CBR test"},{"url":"https://edinburgh.geotechnical-engineering.biz/oedometer-consolidation/","position":2,"@type":"ListItem","name":"Oedometer consolidation test"},{"url":"https://edinburgh.geotechnical-engineering.biz/soil-mechanics-study/","position":3,"@type":"ListItem","name":"Soil mechanics study"},{"url":"https://edinburgh.geotechnical-engineering.biz/triaxial/","position":4,"@type":"ListItem","name":"Triaxial test"}]}]}</script></head>
 <body>
 
 <header>
@@ -213,7 +222,14 @@ img{max-width:100%!important;height:auto!important}
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../laboratory-cbr/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Laboratory CBR test</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../oedometer-consolidation/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Oedometer consolidation test</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../soil-mechanics-study/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Soil mechanics study</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../triaxial/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Triaxial test</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/ensayo-triaxial-2.webp" alt="Laboratory in Edinburgh" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Geotechnical laboratory testing in Edinburgh provides the essential physical and mechanical characterisation of soils and rocks recovered during ground <a href="/investigation/">investigation</a>. The city's complex geology, ranging from glacial tills and lacustrine deposits in the city centre to the volcanic bedrock of Arthur's Seat and the sedimentary strata of the Carboniferous period, demands rigorous testing programmes. Compliance with BS 5930:2015+A1:2020 and BS EN ISO 17892 governs all procedures, ensuring that classification, strength, and compressibility parameters are determined to a standard accepted by regulatory bodies and structural engineers across Scotland.</p>
+<p>Our laboratory operates strictly to UK standards, beginning with index tests such as moisture content, Atterberg limits, and particle size distribution by wet and dry sieving, often alongside <a href="/oedometer-consolidation/">oedometer consolidation testing</a> to quantify settlement potential in the city's soft alluvial clays. Mechanical testing includes unconfined compressive strength on cohesive samples and triaxial compression under consolidated drained and undrained conditions. For road and pavement design on Edinburgh's variable subgrades, the <a href="/laboratory-cbr/">laboratory CBR test</a> is routinely performed, with remoulded specimens compacted to specified densities and moisture contents, then soaked for 96 hours to simulate worst-case field conditions. All equipment is calibrated to UKAS traceable standards, and sample storage strictly follows the preservation requirements of BS EN ISO 22475-1.</p>
+<p>Typical projects commissioning laboratory testing in Edinburgh include the redevelopment of brownfield sites in Leith and Granton, where historical fill and alluvial deposits require contamination and strength profiling to support foundation design and earthworks specification. Basement excavations in the New Town conservation area demand precise effective stress parameters from triaxial tests to design retaining walls within tight tolerances adjacent to listed structures. For infrastructure schemes such as the tram extension and flood alleviation works, advanced testing like resonant column or cyclic simple shear may supplement standard suites to address dynamic loading and liquefaction assessment. Every programme is tailored to the specific geological unit encountered, whether it be the stiff boulder clay till or the laminated silts of former lake beds, ensuring that <a href="/in-situ-testing/">in-situ testing</a> correlation is robust and reliable.</p>
+<img src="/img/ensayo-triaxial-2.webp" alt="Laboratory in Edinburgh" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>Each testing programme follows a clear process: sample receipt and logging against the factual site investigation report, method-specific specimen preparation, testing in temperature-controlled environments, and data reduction by qualified technicians. The final deliverable is a comprehensive factual laboratory report presenting individual test results, summary tables, and classification plots in accordance with BS 5930. We add value by integrating laboratory data with field observations, providing preliminary interpretation of parameters for immediate use in geotechnical design, and offering guidance on parameter selection for numerical modelling, all delivered within project timelines to maintain programme certainty for Edinburgh's construction sector.</p></div></section></main>
     </div>
 </div>
 

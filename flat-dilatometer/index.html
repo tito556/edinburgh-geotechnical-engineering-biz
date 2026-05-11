@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
@@ -34,7 +39,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-    .content-area { flex-direction: column; }
+    
 .servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
@@ -86,8 +91,8 @@ footer a { color: rgba(255,255,255,0.85); }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
-    .header-top { flex-direction: column; text-align: center; }
+    
+    
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
     border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
@@ -118,7 +123,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
     margin-bottom: 1.25rem; font-size: 1rem;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-    main { padding: 1.5rem; }
+    
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
     text-decoration: none;
 }
 .sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}</style>
+.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ img{max-width:100%!important;height:auto!important}
   body{background:#FAFAFA!important;color:#18181B!important}
   .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   aside{align-self:start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}</style></head>
+  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Typical technical challenges in Edinburgh</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>We worked on a site near Bruntsfield Links where the contractor assumed stiff till from 3 m depth. The DMT profile showed a 2 m thick layer of soft clayey silt at 4.5 m with a KD of 1.8, indicating near-normally consolidated conditions. That layer would have caused differential settlement of over 40 mm under a six-storey building. The design was changed to a raft foundation with ground improvement. Skipping the DMT would have meant accepting a structural risk that could take years to appear. In Edinburgh's variable glacial terrain, the DMT is not an extra cost, it is an insurance policy against hidden soft layers.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>FAQ</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>How does the DMT differ from the SPT in Edinburgh soils?</summary><p>The SPT measures resistance to hammer blows, giving a crude strength index. The DMT measures actual lateral stress and stiffness at rest. In Edinburgh's glacial tills, the DMT provides a continuous profile of modulus and stress history, while the SPT gives a point measurement that can miss thin soft layers. We use both together: SPT for borehole correlation and DMT for detailed stiffness profiling.</p></details><details><summary>Can the DMT be performed in Edinburgh's dense glacial till?</summary><p>Yes, but it requires a powerful CPT rig or a dedicated push unit. The DMT blade needs a steady penetration rate of 20 mm/s, which is achievable in most tills around the city. In extremely dense or gravelly zones, pre-drilling may be needed. We assess the soil profile from trial pits or boreholes first to confirm feasibility.</p></details><details><summary>What is the typical cost range for a DMT investigation in Edinburgh?</summary><p>For a standard project with 5 to 10 test points to 20 m depth, the cost typically falls between £710 and £780. This includes mobilisation, field testing, data processing, and a full interpreted report. Larger volumes or deeper profiles reduce the per-metre rate.</p></details><details><summary>How does the DMT data feed into foundation design under Eurocode 7?</summary><p>The DMT provides direct inputs for settlement calculations (constraint modulus M), bearing capacity (undrained shear strength Su in clays, friction angle in sands), and lateral earth pressures (K0). These parameters are used in Design Approaches 1 and 2 of Eurocode 7. The report includes partial factors and characteristic values ready for the structural engineer.</p></details>
             </section>
 

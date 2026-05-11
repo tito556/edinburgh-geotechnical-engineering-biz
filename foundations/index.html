@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
@@ -31,7 +36,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-    .content-area { flex-direction: column; }
+    
 .servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
@@ -83,8 +88,8 @@ footer a { color: rgba(255,255,255,0.85); }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
-    .header-top { flex-direction: column; text-align: center; }
+    
+    
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
     border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
@@ -115,7 +120,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
     margin-bottom: 1.25rem; font-size: 1rem;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-    main { padding: 1.5rem; }
+    
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
@@ -133,7 +138,9 @@ main p { margin-bottom: 1rem; color: #334155; }
     text-decoration: none;
 }
 .sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}</style>
+.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ img{max-width:100%!important;height:auto!important}
   body{background:#FAFAFA!important;color:#18181B!important}
   .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   aside{align-self:start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Foundations in Edinburgh – UK","description":"Edinburgh’s varied geology—from volcanic bedrock in the city centre to softer alluvial deposits near the Water of Leith—demands foundation solutions that r","@id":"https://edinburgh.geotechnical-engineering.biz/foundations/","inLanguage":"en","url":"https://edinburgh.geotechnical-engineering.biz/foundations/","isPartOf":{"url":"https://edinburgh.geotechnical-engineering.biz","@type":"WebSite","@id":"https://edinburgh.geotechnical-engineering.biz/#website-7fe1"}},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/","name":"Home"},{"position":2,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/foundations/","name":"Foundations"}]},{"@type":"ItemList","name":"Foundations","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/raft-mat-foundation-design/","position":1,"@type":"ListItem","name":"Raft/mat foundation design"}]}]}</script></head>
+  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Foundations in Edinburgh – UK","description":"Edinburgh’s varied geology—from volcanic bedrock in the city centre to softer alluvial deposits near the Water of Leith—demands foundation solutions that r","@id":"https://edinburgh.geotechnical-engineering.biz/foundations/","inLanguage":"en","url":"https://edinburgh.geotechnical-engineering.biz/foundations/","isPartOf":{"url":"https://edinburgh.geotechnical-engineering.biz","@type":"WebSite","@id":"https://edinburgh.geotechnical-engineering.biz/#website-7fe1"}},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/","name":"Home"},{"position":2,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/foundations/","name":"Foundations"}]},{"@type":"ItemList","name":"Foundations","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/raft-mat-foundation-design/","position":1,"@type":"ListItem","name":"Raft/mat foundation design"}]}]}</script></head>
 <body>
 
 <header>
@@ -214,7 +223,14 @@ img{max-width:100%!important;height:auto!important}
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../raft-mat-foundation-design/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Raft/mat foundation design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/pilotes-3.webp" alt="Foundations in Edinburgh" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Foundation design in Edinburgh requires a thorough understanding of the complex local geology, which ranges from volcanic bedrock such as basalt and dolerite in areas like Arthur’s Seat and Castle Rock to glacial till, raised beach deposits, and soft alluvial clays in former loch beds. A robust ground model, developed through targeted <a href="/investigation/">ground investigation</a>, is essential to manage risks associated with variable bearing strata, historical mine workings, and high groundwater in low-lying districts. Compliance with Eurocode 7, specifically BS EN 1997-1:2004+A1:2013 and the UK National Annex, alongside BS 5930:2015+A1:2020 for site investigation, governs all stages of foundation assessment, ensuring designs meet the strict requirements of City of Edinburgh Council building control.</p>
+<p>We execute foundation investigations in strict accordance with UK standards, employing a combination of intrusive and in-situ techniques to characterise ground conditions with precision. Borehole drilling with <a href="/standard-penetration/">Standard Penetration Testing (SPT)</a> provides disturbed samples and energy-corrected N60 values for empirical design in granular soils, while <a href="/in-situ-testing/">in-situ testing</a> in cohesive strata often incorporates the <a href="/field-vane-shear/">field vane shear test (VST)</a> to determine undrained shear strength in sensitive clays and the <a href="/flat-dilatometer/">Flat Dilatometer Test (DMT)</a> for high-resolution profiling of soil stiffness and lateral stress. All field data is calibrated against high-quality undisturbed samples tested in our <a href="/laboratory/">laboratory</a>, where <a href="/oedometer-consolidation/">oedometer consolidation tests</a> quantify settlement potential under load, a critical factor in Edinburgh’s compressible alluvial deposits.</p>
+<p>Typical projects across Edinburgh span sensitive heritage structures in the Old Town, where underpinning assessments demand minimal vibration and precise stiffness data, to new residential and commercial developments on brownfield sites in Leith and Granton, where variable fill and potential contamination require rigorous bearing capacity verification. Infrastructure works, such as the tram extension and flood alleviation schemes, rely on our foundation recommendations to accommodate cyclic loading and groundwater fluctuation. For pavement and road subgrade design, <a href="/laboratory-cbr/">laboratory CBR tests</a> inform the thickness design of flexible pavements in accordance with the Design Manual for Roads and Bridges, ensuring durable performance on the city’s variable glacial substrates.</p>
+<img src="/img/pilotes-1.webp" alt="Foundations in Edinburgh" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>Our process delivers a concise, actionable foundation report within agreed timeframes, presenting a clear ground model, characteristic soil parameters, and detailed recommendations for shallow or deep foundation systems, including allowable bearing pressures, pile capacities, and settlement predictions. We address sulphate and groundwater aggressivity per BRE Special Digest 1, providing concrete design class specifications. By integrating local geological expertise with advanced field and laboratory testing, we de-risk foundation construction, optimise structural design, and support efficient regulatory approval, offering a single-source investigation partner for projects throughout Edinburgh and the Lothians.</p></div></section></main>
     </div>
 </div>
 

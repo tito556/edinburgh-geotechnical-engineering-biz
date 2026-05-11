@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
@@ -34,7 +39,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-    .content-area { flex-direction: column; }
+    
 .servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
@@ -86,8 +91,8 @@ footer a { color: rgba(255,255,255,0.85); }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
-    .header-top { flex-direction: column; text-align: center; }
+    
+    
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
     border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
@@ -118,7 +123,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
     margin-bottom: 1.25rem; font-size: 1rem;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-    main { padding: 1.5rem; }
+    
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
     text-decoration: none;
 }
 .sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}</style>
+.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ img{max-width:100%!important;height:auto!important}
   body{background:#FAFAFA!important;color:#18181B!important}
   .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   aside{align-self:start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}</style>  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","logo":"https://edinburgh.geotechnical-engineering.biz/img/logo.svg","name":"Edinburgh","@id":"https://edinburgh.geotechnical-engineering.biz/#organization","url":"https://edinburgh.geotechnical-engineering.biz/","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Geotechnical Engineering","Soil Mechanics","Foundation Engineering","Site Investigation"]},{"@type":"ItemList","@id":"https://edinburgh.geotechnical-engineering.biz/#services","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/active-passive-anchor-design/","position":1,"@type":"ListItem","name":"Active Passive Anchor Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/cbr-study-road-design/","position":2,"@type":"ListItem","name":"Cbr Study Road Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/dynamic-compaction-design/","position":3,"@type":"ListItem","name":"Dynamic Compaction Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/existing-pavement-evaluation/","position":4,"@type":"ListItem","name":"Existing Pavement Evaluation"},{"url":"https://edinburgh.geotechnical-engineering.biz/factor-safety/","position":5,"@type":"ListItem","name":"Factor Safety"},{"url":"https://edinburgh.geotechnical-engineering.biz/field-vane-shear/","position":6,"@type":"ListItem","name":"Field Vane Shear"},{"url":"https://edinburgh.geotechnical-engineering.biz/flat-dilatometer/","position":7,"@type":"ListItem","name":"Flat Dilatometer"},{"url":"https://edinburgh.geotechnical-engineering.biz/flexible-pavement-design/","position":8,"@type":"ListItem","name":"Flexible Pavement Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/foundations/","position":9,"@type":"ListItem","name":"Foundations"},{"url":"https://edinburgh.geotechnical-engineering.biz/geomembrane-specification/","position":10,"@type":"ListItem","name":"Geomembrane Specification"},{"url":"https://edinburgh.geotechnical-engineering.biz/geotechnical-instrumentation/","position":11,"@type":"ListItem","name":"Geotechnical Instrumentation"},{"url":"https://edinburgh.geotechnical-engineering.biz/ground-improvement/","position":12,"@type":"ListItem","name":"Ground Improvement"},{"url":"https://edinburgh.geotechnical-engineering.biz/in-situ-testing/","position":13,"@type":"ListItem","name":"In Situ Testing"},{"url":"https://edinburgh.geotechnical-engineering.biz/investigation/","position":14,"@type":"ListItem","name":"Investigation"},{"url":"https://edinburgh.geotechnical-engineering.biz/laboratory/","position":15,"@type":"ListItem","name":"Laboratory"},{"url":"https://edinburgh.geotechnical-engineering.biz/laboratory-cbr/","position":16,"@type":"ListItem","name":"Laboratory Cbr"},{"url":"https://edinburgh.geotechnical-engineering.biz/landfill-geotechnics/","position":17,"@type":"ListItem","name":"Landfill Geotechnics"},{"url":"https://edinburgh.geotechnical-engineering.biz/oedometer-consolidation/","position":18,"@type":"ListItem","name":"Oedometer Consolidation"},{"url":"https://edinburgh.geotechnical-engineering.biz/preloading-design/","position":19,"@type":"ListItem","name":"Preloading Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/raft-mat-foundation-design/","position":20,"@type":"ListItem","name":"Raft Mat Foundation Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/retaining-wall-design/","position":21,"@type":"ListItem","name":"Retaining Wall Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/roadway/","position":22,"@type":"ListItem","name":"Roadway"},{"url":"https://edinburgh.geotechnical-engineering.biz/slope-stability-analysis/","position":23,"@type":"ListItem","name":"Slope Stability Analysis"},{"url":"https://edinburgh.geotechnical-engineering.biz/slopes-walls/","position":24,"@type":"ListItem","name":"Slopes Walls"},{"url":"https://edinburgh.geotechnical-engineering.biz/soil-erosion-analysis/","position":25,"@type":"ListItem","name":"Soil Erosion Analysis"},{"url":"https://edinburgh.geotechnical-engineering.biz/soil-mechanics-study/","position":26,"@type":"ListItem","name":"Soil Mechanics Study"},{"url":"https://edinburgh.geotechnical-engineering.biz/standard-penetration/","position":27,"@type":"ListItem","name":"Standard Penetration"},{"url":"https://edinburgh.geotechnical-engineering.biz/triaxial/","position":28,"@type":"ListItem","name":"Triaxial"}]},{"itemReviewed":{"@id":"https://edinburgh.geotechnical-engineering.biz/#organization"},"@type":"AggregateRating","bestRating":5,"worstRating":1,"@id":"https://edinburgh.geotechnical-engineering.biz/#rating","ratingValue":4.7,"reviewCount":53}]}</script>
+  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+}
+</style>  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","logo":"https://edinburgh.geotechnical-engineering.biz/img/logo.svg","name":"Edinburgh","@id":"https://edinburgh.geotechnical-engineering.biz/#organization","url":"https://edinburgh.geotechnical-engineering.biz/","areaServed":{"@type":"Country","name":"United States"},"knowsAbout":["Geotechnical Engineering","Soil Mechanics","Foundation Engineering","Site Investigation"]},{"@type":"ItemList","@id":"https://edinburgh.geotechnical-engineering.biz/#services","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/active-passive-anchor-design/","position":1,"@type":"ListItem","name":"Active Passive Anchor Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/cbr-study-road-design/","position":2,"@type":"ListItem","name":"Cbr Study Road Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/dynamic-compaction-design/","position":3,"@type":"ListItem","name":"Dynamic Compaction Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/existing-pavement-evaluation/","position":4,"@type":"ListItem","name":"Existing Pavement Evaluation"},{"url":"https://edinburgh.geotechnical-engineering.biz/factor-safety/","position":5,"@type":"ListItem","name":"Factor Safety"},{"url":"https://edinburgh.geotechnical-engineering.biz/field-vane-shear/","position":6,"@type":"ListItem","name":"Field Vane Shear"},{"url":"https://edinburgh.geotechnical-engineering.biz/flat-dilatometer/","position":7,"@type":"ListItem","name":"Flat Dilatometer"},{"url":"https://edinburgh.geotechnical-engineering.biz/flexible-pavement-design/","position":8,"@type":"ListItem","name":"Flexible Pavement Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/foundations/","position":9,"@type":"ListItem","name":"Foundations"},{"url":"https://edinburgh.geotechnical-engineering.biz/geomembrane-specification/","position":10,"@type":"ListItem","name":"Geomembrane Specification"},{"url":"https://edinburgh.geotechnical-engineering.biz/geotechnical-instrumentation/","position":11,"@type":"ListItem","name":"Geotechnical Instrumentation"},{"url":"https://edinburgh.geotechnical-engineering.biz/ground-improvement/","position":12,"@type":"ListItem","name":"Ground Improvement"},{"url":"https://edinburgh.geotechnical-engineering.biz/in-situ-testing/","position":13,"@type":"ListItem","name":"In Situ Testing"},{"url":"https://edinburgh.geotechnical-engineering.biz/investigation/","position":14,"@type":"ListItem","name":"Investigation"},{"url":"https://edinburgh.geotechnical-engineering.biz/laboratory/","position":15,"@type":"ListItem","name":"Laboratory"},{"url":"https://edinburgh.geotechnical-engineering.biz/laboratory-cbr/","position":16,"@type":"ListItem","name":"Laboratory Cbr"},{"url":"https://edinburgh.geotechnical-engineering.biz/landfill-geotechnics/","position":17,"@type":"ListItem","name":"Landfill Geotechnics"},{"url":"https://edinburgh.geotechnical-engineering.biz/oedometer-consolidation/","position":18,"@type":"ListItem","name":"Oedometer Consolidation"},{"url":"https://edinburgh.geotechnical-engineering.biz/preloading-design/","position":19,"@type":"ListItem","name":"Preloading Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/raft-mat-foundation-design/","position":20,"@type":"ListItem","name":"Raft Mat Foundation Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/retaining-wall-design/","position":21,"@type":"ListItem","name":"Retaining Wall Design"},{"url":"https://edinburgh.geotechnical-engineering.biz/roadway/","position":22,"@type":"ListItem","name":"Roadway"},{"url":"https://edinburgh.geotechnical-engineering.biz/slope-stability-analysis/","position":23,"@type":"ListItem","name":"Slope Stability Analysis"},{"url":"https://edinburgh.geotechnical-engineering.biz/slopes-walls/","position":24,"@type":"ListItem","name":"Slopes Walls"},{"url":"https://edinburgh.geotechnical-engineering.biz/soil-erosion-analysis/","position":25,"@type":"ListItem","name":"Soil Erosion Analysis"},{"url":"https://edinburgh.geotechnical-engineering.biz/soil-mechanics-study/","position":26,"@type":"ListItem","name":"Soil Mechanics Study"},{"url":"https://edinburgh.geotechnical-engineering.biz/standard-penetration/","position":27,"@type":"ListItem","name":"Standard Penetration"},{"url":"https://edinburgh.geotechnical-engineering.biz/triaxial/","position":28,"@type":"ListItem","name":"Triaxial"}]},{"itemReviewed":{"@id":"https://edinburgh.geotechnical-engineering.biz/#organization"},"@type":"AggregateRating","bestRating":5,"worstRating":1,"@id":"https://edinburgh.geotechnical-engineering.biz/#rating","ratingValue":4.7,"reviewCount":53}]}</script>
 </head>
 <body>
 
@@ -189,7 +198,9 @@ img{max-width:100%!important;height:auto!important}
 
             
 
-            <div style="margin:2rem 0"><h2>Working video</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/N3lD4C3vg1k?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div>
+            <div style="margin:2rem 0"><h2>Working video</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/N3lD4C3vg1k?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div>
 
             <section>
                 <h2>Typical technical challenges in Edinburgh</h2>

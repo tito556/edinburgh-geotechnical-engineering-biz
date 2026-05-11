@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
@@ -31,7 +36,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-    .content-area { flex-direction: column; }
+    
 .servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
@@ -83,8 +88,8 @@ footer a { color: rgba(255,255,255,0.85); }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
-    .header-top { flex-direction: column; text-align: center; }
+    
+    
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
     border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
@@ -115,7 +120,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
     margin-bottom: 1.25rem; font-size: 1rem;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-    main { padding: 1.5rem; }
+    
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
@@ -133,7 +138,9 @@ main p { margin-bottom: 1rem; color: #334155; }
     text-decoration: none;
 }
 .sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}</style>
+.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ img{max-width:100%!important;height:auto!important}
   body{background:#FAFAFA!important;color:#18181B!important}
   .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   aside{align-self:start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Investigation in Edinburgh – UK","description":"Ground investigation across Edinburgh must address the city’s complex glacial till, volcanic bedrock, and historic fill, guided by BS 5930 and Eurocode 7","@id":"https://edinburgh.geotechnical-engineering.biz/investigation/","inLanguage":"en","url":"https://edinburgh.geotechnical-engineering.biz/investigation/","isPartOf":{"url":"https://edinburgh.geotechnical-engineering.biz","@type":"WebSite","@id":"https://edinburgh.geotechnical-engineering.biz/#website-7fe1"}},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/","name":"Home"},{"position":2,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/investigation/","name":"Investigation"}]},{"@type":"ItemList","name":"Investigation","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/standard-penetration/","position":1,"@type":"ListItem","name":"SPT (Standard Penetration Test)"}]}]}</script></head>
+  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"Investigation in Edinburgh – UK","description":"Ground investigation across Edinburgh must address the city’s complex glacial till, volcanic bedrock, and historic fill, guided by BS 5930 and Eurocode 7","@id":"https://edinburgh.geotechnical-engineering.biz/investigation/","inLanguage":"en","url":"https://edinburgh.geotechnical-engineering.biz/investigation/","isPartOf":{"url":"https://edinburgh.geotechnical-engineering.biz","@type":"WebSite","@id":"https://edinburgh.geotechnical-engineering.biz/#website-7fe1"}},{"@type":"BreadcrumbList","itemListElement":[{"position":1,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/","name":"Home"},{"position":2,"@type":"ListItem","item":"https://edinburgh.geotechnical-engineering.biz/investigation/","name":"Investigation"}]},{"@type":"ItemList","name":"Investigation","itemListElement":[{"url":"https://edinburgh.geotechnical-engineering.biz/standard-penetration/","position":1,"@type":"ListItem","name":"SPT (Standard Penetration Test)"}]}]}</script></head>
 <body>
 
 <header>
@@ -213,7 +222,14 @@ img{max-width:100%!important;height:auto!important}
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../standard-penetration/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">SPT (Standard Penetration Test)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/ensayo-cbr-1.webp" alt="Investigation in Edinburgh" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Ground investigation in Edinburgh demands a rigorous, phased approach to de-risk construction and infrastructure projects across the city's complex geological setting. Our investigation services provide a complete factual and interpretative picture of ground conditions, tailored specifically to the variable strata found beneath the capital. The local geology is dominated by glacial till overlying sedimentary and volcanic bedrock from the Carboniferous period, including sandstones, siltstones, and basalt intrusions such as the famous Castle Rock crag-and-tail. A robust <a href="/investigation/">desk study and ground investigation</a> strategy must account for historic mine workings, variable drift thickness, and elevated groundwater, all in strict accordance with the current British Standards, primarily BS 5930:2015+A1:2020 for the code of practice for ground investigations, and BS EN 1997-2 (Eurocode 7) for geotechnical design.</p>
+<p>Our field methodology is designed to extract maximum high-quality data, deploying a suite of intrusive and non-intrusive techniques calibrated to UK practice. The backbone of any investigation is the borehole, where we execute the <a href="/standard-penetration/">Standard Penetration Test (SPT)</a> at regular intervals to assess the density and consistency of granular soils, providing a direct correlation to engineering properties. To capture the undrained shear strength of sensitive, low-strength cohesive soils like soft silts, we deploy the <a href="/field-vane-shear/">field vane shear test (VST)</a>, a crucial test in the alluvial deposits found along the Water of Leith. For a continuous high-resolution profile of soil stiffness and stratigraphy, particularly in glacial tills, the <a href="/flat-dilatometer/">Flat Dilatometer Test (DMT)</a> offers an efficient and reliable in-situ solution. All these <a href="/in-situ-testing/">in-situ testing</a> methods are complemented by the recovery of high-integrity samples for subsequent laboratory analysis.</p>
+<p>The built environment of Edinburgh presents a unique set of challenges that our investigations directly address, from the New Town’s Georgian basements to modern developments on reclaimed land in Leith Docks. Our work frequently supports the structural assessment of traditional tenement buildings, where foundation depth and condition are critical unknowns, and we design investigations to minimise disturbance in these sensitive urban sites. For new-build student accommodation and commercial developments, quantifying consolidation settlement is paramount; we therefore perform <a href="/oedometer-consolidation/">oedometer consolidation tests</a> on undisturbed samples to predict long-term ground movement. For infrastructure projects, including road pavements and car parks, we determine the bearing capacity of the subgrade through the <a href="/laboratory-cbr/">laboratory CBR test</a>, ensuring pavement designs meet the specifications of local authority adoptable standards. All specialist testing is conducted under our rigorous quality management in our dedicated <a href="/laboratory/">testing laboratory</a>.</p>
+<img src="/img/ensayo-cbr-1.webp" alt="Investigation in Edinburgh" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>The investigation process begins with a targeted desk study and site reconnaissance to build a preliminary ground model, which is then physically tested and refined through our field programme. The final deliverable is a comprehensive Ground Investigation Report (GIR) that integrates factual site data, laboratory results, and a detailed geotechnical interpretation, providing clear design parameters and risk assessments. This document forms the single source of truth for civil and structural engineers, enabling optimised foundation design, efficient earthworks strategies, and unambiguous regulatory compliance. By investing in a thorough and technically precise ground investigation, developers and asset owners in Edinburgh secure a definitive reduction in the risk of unforeseen ground conditions, protecting their programme and budget from costly delays.</p></div></section></main>
     </div>
 </div>
 

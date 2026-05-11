@@ -26,6 +26,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
 th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
@@ -34,7 +39,7 @@ summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(-
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 .sidebar .cat:hover { background: rgba(255,255,255,0.08); }
-    .content-area { flex-direction: column; }
+    
 .servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
@@ -86,8 +91,8 @@ footer a { color: rgba(255,255,255,0.85); }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
 
 #mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-    .container { padding: 1rem; }
-    .header-top { flex-direction: column; text-align: center; }
+    
+    
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
     border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
@@ -118,7 +123,7 @@ h1, h2, h3, h4 { font-family: var(--font-h); }
     margin-bottom: 1.25rem; font-size: 1rem;
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-    main { padding: 1.5rem; }
+    
 
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
 main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
@@ -136,7 +141,9 @@ main p { margin-bottom: 1rem; color: #334155; }
     text-decoration: none;
 }
 .sidebar .cat .arrow { font-size: .65rem; transition: transform .2s; }
-.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}</style>
+.cat-sub-wrap a{display:block;padding:.5rem 1.1rem .5rem 1.8rem;color:inherit;text-decoration:none;font-size:.92rem;opacity:.85;transition:opacity .15s,background .15s}
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -148,7 +155,9 @@ img{max-width:100%!important;height:auto!important}
   body{background:#FAFAFA!important;color:#18181B!important}
   .layout{display:grid!important;grid-template-columns:240px 1fr!important;gap:0!important;max-width:1200px!important;margin:0 auto!important;padding:2rem!important}
   aside{align-self:start!important}
-  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}</style></head>
+  .sidebar{width:240px!important;flex-shrink:0!important;background:#0A0A0A!important;color:#FFF!important;border-radius:10px!important;position:sticky!important;top:1rem!important;max-height:calc(100vh - 2rem)!important;overflow-y:auto!important}
+}
+</style></head>
 <body>
 
 <header>
@@ -192,6 +201,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>Typical technical challenges in Edinburgh</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <p>The glacial till beneath Edinburgh can hide pockets of soft clay and peat, especially in the former watercourses of the Water of Leith and Braid Burn. These lenses cause drastic CBR drops over short distances. If the pavement design assumes uniform bearing capacity, the result is cracking and rutting within two to three years. High groundwater levels, typical between 1.5 m and 3 m depth in many central districts, further weaken the subgrade if drainage is not addressed. The risk multiplies on slopes where lateral movement can shear the pavement edge. We mitigate this by mapping CBR variability across the entire footprint, not just at one test point.</p>
             </section>
 
@@ -216,6 +227,8 @@ img{max-width:100%!important;height:auto!important}
 
             <section>
                 <h2>FAQ</h2>
+<hr style="border:none;height:2px;background:linear-gradient(90deg,transparent,#A16207,transparent);margin:2rem 0;width:60%;margin-left:auto;margin-right:auto">
+
                 <details><summary>Why does Edinburgh's glacial till make flexible pavement design different from other UK cities?</summary><p>Glacial till in Edinburgh is highly variable — it can grade from dense, well‑graded gravelly clay to soft silty clay within metres. This causes CBR to fluctuate sharply across a single site. Standard regional CBR tables often overestimate strength, so we run site‑specific tests at multiple locations to avoid under‑design.</p></details><details><summary>What is the typical CBR value for subgrade in Edinburgh?</summary><p>CBR values range from 2% in soft estuarine clays near Leith to 8% in competent boulder clay on higher ground. Most central sites fall between 3% and 6%. We always confirm with in‑situ testing because the local geology can surprise you.</p></details><details><summary>How much does a flexible pavement design study for a typical Edinburgh project cost?</summary><p>A full study including subgrade investigation, CBR testing, and design report typically ranges between £1,320 and £3,550. The final cost depends on site size, number of test locations, and whether laboratory compaction tests are required.</p></details><details><summary>Do I need a separate drainage design for the pavement layers?</summary><p>Yes. Flexible pavement performance in Edinburgh's wet climate depends heavily on subsurface drainage. We include drainage recommendations (edge drains, permeable sub‑base, fall gradients) in our design report to prevent water accumulation that can reduce CBR by up to 50%.</p></details><details><summary>Can you design a pavement for a bus route or heavy‑duty access road?</summary><p>Absolutely. We follow DMRB CD 225 for traffic categories up to 10 million standard axles. For bus lanes and HGV routes we increase the asphalt thickness and may recommend a cement‑treated base to spread load without excessive rutting.</p></details>
             </section>
 
