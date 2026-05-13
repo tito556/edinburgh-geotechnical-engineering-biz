@@ -174,6 +174,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#8B0000) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head>
 <body>
 
@@ -199,7 +235,7 @@ header.hero, .hero { position: relative !important; }
             <nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="../investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../standard-penetration">SPT (Standard Penetration Test)</a></div></div><div class="cat-item" data-cat="in-situ-testing"><div class="cat-row"><a href="../in-situ-testing/" class="cat-name">In-Situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../field-vane-shear">Field vane shear test (VST)</a><a href="../flat-dilatometer">Flat Dilatometer Test (DMT)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a href="../laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../laboratory-cbr">Laboratory CBR test</a><a href="../oedometer-consolidation">Oedometer consolidation test</a><a href="../soil-mechanics-study">Soil mechanics study</a><a href="../triaxial">Triaxial test</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a href="../foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../raft-mat-foundation-design">Raft/mat foundation design</a></div></div><div class="cat-item" data-cat="slopes-walls"><div class="cat-row"><a href="../slopes-walls/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../active-passive-anchor-design">Active/passive anchor design</a><a href="../factor-safety">Factor of safety (FS) calculation</a><a href="../retaining-wall-design">Retaining wall design</a><a href="../slope-stability-analysis">Slope stability analysis</a><a href="../soil-erosion-analysis">Soil erosion analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a href="../ground-improvement/" class="cat-name">Improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../dynamic-compaction-design">Dynamic compaction design</a><a href="../geomembrane-specification">Geomembrane specification</a><a href="../geotechnical-instrumentation">Geotechnical instrumentation (design and installation)</a><a href="../landfill-geotechnics">Landfill geotechnics</a><a href="../preloading-design">Preloading design (without surcharge)</a></div></div><div class="cat-item" data-cat="roadway"><div class="cat-row"><a href="../roadway/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub-wrap" hidden><a href="../cbr-study-road-design">CBR study for road design</a><a href="../existing-pavement-evaluation">Existing pavement evaluation</a><a href="../flexible-pavement-design">Flexible pavement design</a></div></div></nav>
         </aside>
         <main>
-            <section><p>The difference between the raised beach deposits of Leith and the glacial till underlying Morningside is stark. Beneath Leith, you find soft clays and silty sands with low bearing capacity. In Morningside, dense boulder clay dominates. That contrast is exactly why a laboratory CBR test is essential before any pavement design in Edinburgh. Without it, you are guessing the subgrade reaction modulus. Our team has tested hundreds of samples across these distinct geologies, from the Water of Leith floodplain to the slopes of Arthur's Seat. The CBR value dictates the thickness of the pavement layers. A difference of 2% can change the structural section by 50 mm or more.</p><figure style="margin:1.5rem auto;max-width:720px;text-align:center"><img src="/img/ensayo-cbr-1.webp" loading="lazy" decoding="async" width="800" height="600" alt="Illustrative image of Laboratory CBR test in Edinburgh" style="width:100%;height:auto;display:block;border-radius:8px;border:1px solid #E5E7EB"></figure></section>
+            <section><p>The difference between the raised beach deposits of Leith and the glacial till underlying Morningside is stark. Beneath Leith, you find soft clays and silty sands with low bearing capacity. In Morningside, dense boulder clay dominates. That contrast is exactly why a <a href="/laboratory/">laboratory</a> CBR test is essential before any pavement design in Edinburgh. Without it, you are guessing the subgrade reaction modulus. Our team has tested hundreds of samples across these distinct geologies, from the Water of Leith floodplain to the slopes of Arthur's Seat. The CBR value dictates the thickness of the pavement layers. A difference of 2% can change the structural section by 50 mm or more.</p><figure style="margin:1.5rem auto;max-width:720px;text-align:center"><img src="/img/ensayo-cbr-1.webp" loading="lazy" decoding="async" width="800" height="600" alt="Illustrative image of Laboratory CBR test in Edinburgh" style="width:100%;height:auto;display:block;border-radius:8px;border:1px solid #E5E7EB"></figure></section>
 
             <blockquote style="border-left:4px solid #B45309;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Under soaked conditions, Edinburgh's glacial till can lose 50% of its unsoaked CBR — always test after four-day soaking.</blockquote>
 

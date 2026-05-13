@@ -174,6 +174,42 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#8B0000) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+html,body{overflow-x:hidden;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
 </head>
 <body>
 
@@ -244,7 +280,7 @@ header.hero, .hero { position: relative !important; }
 
             <section>
                 <h2>FAQ</h2>
-                <details><summary>What is the typical factor of safety for a building foundation in Edinburgh?</summary><p>For shallow foundations on Edinburgh's glacial till, we aim for a minimum FS of 2.5 against bearing capacity failure under service loads, per Eurocode 7. For deep foundations, a FS of 2.0 on shaft and base resistance is common, adjusted for the load case.</p></details><details><summary>How much does a factor of safety calculation project cost in Edinburgh?</summary><p>A typical FS analysis for a small residential project, including field data review and a short report, ranges from £450 to £1,350. Larger commercial sites with multiple slopes or deep foundations can cost more depending on the number of sections and lab tests required.</p></details><details><summary>Why can't I use the same FS number as the neighbouring site?</summary><p>Soil properties vary significantly even within the same postcode area. The glacial till under Bruntsfield has different shear strength than the same till under Corstorphine due to consolidation history and gravel content. We calculate your FS using your specific borehole data, not a generic value.</p></details><details><summary>What software do you use for FS calculations in Edinburgh?</summary><p>We use GeoStudio for slope stability, PLAXIS 2D/3D for finite element analyses, and Slide for circular/non-circular failure surfaces. All models are calibrated against laboratory test results from our UKAS-accredited lab.</p></details>
+                <details><summary>What is the typical factor of safety for a building foundation in Edinburgh?</summary><p>For shallow <a href="/foundations/">foundations</a> on Edinburgh's glacial till, we aim for a minimum FS of 2.5 against bearing capacity failure under service loads, per Eurocode 7. For deep foundations, a FS of 2.0 on shaft and base resistance is common, adjusted for the load case.</p></details><details><summary>How much does a factor of safety calculation project cost in Edinburgh?</summary><p>A typical FS analysis for a small residential project, including field data review and a short report, ranges from £450 to £1,350. Larger commercial sites with multiple slopes or deep foundations can cost more depending on the number of sections and lab tests required.</p></details><details><summary>Why can't I use the same FS number as the neighbouring site?</summary><p>Soil properties vary significantly even within the same postcode area. The glacial till under Bruntsfield has different shear strength than the same till under Corstorphine due to consolidation history and gravel content. We calculate your FS using your specific borehole data, not a generic value.</p></details><details><summary>What software do you use for FS calculations in Edinburgh?</summary><p>We use GeoStudio for slope stability, PLAXIS 2D/3D for finite element analyses, and Slide for circular/non-circular failure surfaces. All models are calibrated against laboratory test results from our UKAS-accredited lab.</p></details>
             </section>
 
             <section>
