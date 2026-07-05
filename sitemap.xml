@@ -4,145 +4,174 @@
     <loc>https://edinburgh.geotechnical-engineering.biz/</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/active-passive-anchor-design/</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/cbr-study-road-design/</loc>
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/dynamic-compaction-design/</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/existing-pavement-evaluation/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/factor-safety/</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/field-vane-shear/</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/flat-dilatometer/</loc>
     <lastmod>2026-04-18</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/flexible-pavement-design/</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/foundations/</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/geomembrane-specification/</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/geotechnical-instrumentation/</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/ground-improvement/</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/in-situ-testing/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/investigation/</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://edinburgh.geotechnical-engineering.biz/laboratory-cbr/</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/laboratory/</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://edinburgh.geotechnical-engineering.biz/laboratory-cbr/</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/landfill-geotechnics/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/oedometer-consolidation/</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/preloading-design/</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/raft-mat-foundation-design/</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/retaining-wall-design/</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/roadway/</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/slope-stability-analysis/</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/slopes-walls/</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/soil-erosion-analysis/</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/soil-mechanics-study/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/standard-penetration/</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://edinburgh.geotechnical-engineering.biz/triaxial/</loc>
     <lastmod>2026-04-07</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
